@@ -27,7 +27,7 @@ public class ModBlocks {
             () -> new GlassBlock(AbstractBlock.Properties.of(Material.GLASS)
                     .harvestLevel(2).harvestTool(ToolType.PICKAXE).strength(5f).noOcclusion().lightLevel((blockstate) -> 15).sound(SoundType.GLASS)));
 
-    public static final RegistryObject<SandBlock> ASH_BLOCK = BLOCKS.register("ash_block",
+    public static final RegistryObject<SandBlock> ASH_BLOCK = registerBlock("ash_block",
             () -> new SandBlock(2, AbstractBlock.Properties.of(Material.SAND, MaterialColor.COLOR_BLACK)
                     .strength(0.3f, 0.3f).harvestTool(ToolType.SHOVEL).harvestLevel(-1)
                     .sound(SoundType.SAND)
