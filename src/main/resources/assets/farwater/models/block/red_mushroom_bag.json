@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "farwater:block/red_mushroom_bag",
+    "down": "farwater:block/bag_bottom",
+    "up": "farwater:block/red_mushroom_bag",
+    "north": "farwater:block/bag_side_tied",
+    "south": "farwater:block/bag_side_tied",
+    "east": "farwater:block/bag_side",
+    "west": "farwater:block/bag_side"
+  }
+}

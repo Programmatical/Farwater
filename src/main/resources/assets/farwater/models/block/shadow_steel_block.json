@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "farwater:block/shadow_steel_block_top",
+    "down": "farwater:block/shadow_steel_block_top",
+    "up": "farwater:block/shadow_steel_block_top",
+    "north": "farwater:block/shadow_steel_block",
+    "south": "farwater:block/shadow_steel_block",
+    "east": "farwater:block/shadow_steel_block",
+    "west": "farwater:block/shadow_steel_block"
+  }
+}

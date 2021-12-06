@@ -1,8 +1,19 @@
 {
-  "item.farwater.molten_debris": "Molten Debris",
-  "fluid.farwater.quintessence": "Quintessence",
-  "item.farwater.quintessence_bucket": "Quintessence Bucket",
-  "block.farwater.refined_radiance_block": "Block of Refined Radiance",
-
-  "itemGroup.farwaterTab": "Farwater"
+	"block.farwater.ash_block": "Ash Block",
+	"block.farwater.refined_radiance_block": "Block of Refined Radiance",
+	
+	"item.farwater.cheese": "Cheese",
+	"item.farwater.cheeseburger": "Cheeseburger",
+	"item.farwater.cheese_sword": "Cheese Sword",
+	"item.farwater.chromatic_mechanism": "Chromatic Mechanism",
+	"item.farwater.molten_debris": "Molten Debris",
+	"item.farwater.quintessence_bucket": "Quintessence Bucket",
+	
+	"fluid.farwater.quintessence": "Quintessence",
+	
+	"itemGroup.farwaterTab": "Farwater",
+	
+	"tooltip.farwater.all.hold_shift": "\u00a78Hold [\u00a77Shift\u00a78] for Description",
+	"tooltip.farwater.cheese_sword.lore1": "\u00a77Curious energies surround this blade",
+	"tooltip.farwater.cheese_sword.lore2": "\u00a77it is patterned after something from a lost world"
 }
