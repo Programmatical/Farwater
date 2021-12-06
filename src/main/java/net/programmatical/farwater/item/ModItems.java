@@ -8,6 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.programmatical.farwater.Farwater;
 import net.programmatical.farwater.block.ModBlocks;
 import net.programmatical.farwater.fluid.ModFluids;
+import net.programmatical.farwater.item.itemExtras.CheeseItem;
 import net.programmatical.farwater.item.itemExtras.CheeseSword;
 
 public class ModItems {
@@ -22,8 +23,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.FARWATER_GROUP).food(new Food.Builder().nutrition(2).saturationMod(2).build())));
+    public static final RegistryObject<CheeseItem> CHEESE = ITEMS.register("cheese",
+            () -> new CheeseItem(new Item.Properties().tab(ModItemGroup.FARWATER_GROUP).food(new Food.Builder().nutrition(2).saturationMod(2).build())));
 
     public static final RegistryObject<CheeseSword> CHEESE_SWORD = ITEMS.register("cheese_sword",
             () -> new CheeseSword(ToolMaterials.CHEESE,4, -2, new Item.Properties().tab(ModItemGroup.FARWATER_GROUP).defaultDurability(128).rarity(Rarity.RARE)));
